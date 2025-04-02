@@ -17,7 +17,7 @@ jobs:
       - name: Rename CV
         run: mv main.pdf firolunis_cv.pdf
       - name: Upload PDF file
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: CV
           path: firolunis_cv.pdf
